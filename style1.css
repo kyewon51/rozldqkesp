@@ -1,0 +1,79 @@
+
+
+    /*
+  배운 내용들을 활용해서 위와 동일한 디자인의 웸 페이지를 만드는 코드를 멘토에게 제출하여 피
+  •드백 받을 것.
+  조건 1. Display: flex. 속성을 사용하여 레이아웃을 짤 것
+  수 조건 2. 중앙에 큰 사각형은 가로200px, 세로200px로 설정하고
+   padding은 모든 방향 20px로 고  정할 것
+  조건 3. 배경 및 상자 등의 색상은 위 사진과 다르게 설정하고, 
+  rgba0를 사용하여 색상을 설정할
+  조건 4. html파일과 css 파일을 따로 분리하여 작성하고 
+  이를 연결하여 완성할 것
+  */
+
+  body{
+
+    display:flex;
+    height : 200px
+    width:200px
+    border:2.5px solid red;
+    background-color : blue;
+    padding:20px;
+  }
+
+  .살색상자{
+    display:flex;
+    flex-direction:column ;
+    justify-content: space-between;
+    align-items:center;
+    height : 200px
+    width:200px
+    border:2.5px solid pink;
+   
+    padding:20px;
+
+  }
+
+.초록상자{
+
+  display:flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  align-items:center;
+  height : 200px
+  width:200px
+  border:2.5px solid gray;
+  
+  padding:20px;
+}
+  
+.긴초록상자{
+
+  display:flex;
+  flex-direction:column ;
+  justify-content: space-between;
+  align-items:center;
+  height : 200px
+  width:200px
+  border:2.5px solid red;
+  
+  padding:20px;
+}
+
+ 
+  
+  /*justify-content: center;
+
+  flex-wrap: wrap;
+
+  height: 300px;
+
+  align-items: flex-end;
+  align-content: space-around;
+  
+  flex-direction: row;
+  flex-wrap: wrap;
+  flex-flow: row-reverse wrap;
+   */
+
